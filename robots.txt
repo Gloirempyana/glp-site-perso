@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gloirempyana.github.io/glp-site-perso/sitemap.xml
