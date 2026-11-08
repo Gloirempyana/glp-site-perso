@@ -43,3 +43,6 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
 document.querySelector("#year").textContent = new Date().getFullYear();
+
+const hour = new Date().getHours();
+document.querySelector("#greeting").textContent = hour >= 18 || hour < 3 ? "Bonsoir" : "Bonjour";
